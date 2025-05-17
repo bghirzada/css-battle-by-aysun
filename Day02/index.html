@@ -1,0 +1,46 @@
+<div class="main">
+  <div class="t"></div>
+  <div class="r">
+    <div class="o"></div>
+    <div class="o" id="i"></div>
+  </div>
+</div>
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.main{
+  height:300px;
+  width: 400px;
+  margin: 30px 30px;
+  background-color:#243D83;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+.t{
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 80px solid #5AA4B7;
+}
+.r{
+  width:160px;
+  height:160px;
+  background-color:#5AA4B7;
+  border-radius: 0 0 100px 100px;
+  display:flex;
+  justify-content: space-between;
+}
+.o{
+  width:40px;
+  height:80px;
+  border-radius: 0 60px 60px 0;
+  background-color:#243D83;
+}
+  #i{
+    transform:rotate(180deg);
+  }
+</style>
