@@ -1,0 +1,64 @@
+<div class="main">
+  <div class="a">
+    <div class="o" id="obt"></div>
+    <div class="d"></div>
+    <div class="o" id="obb"></div>
+  </div>
+  <div class="b">
+    <div class="o" id="obl"></div>
+    <div class="o" id="obr"></div>
+  </div>
+</div>
+<style>
+*{
+  margin:0;
+  background-color: #5A9F48;
+}
+.main{
+  width:400px;
+  height:300px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.a{
+  z-index:1;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+.o{
+  width:80px;
+  height:80px;
+  border-radius:50%;
+  border: 30px solid #000;
+}
+#obt{
+  position:absolute;
+  top:25
+}
+#obb{
+  position:absolute;
+  bottom:25
+}
+#obl{
+  position:absolute;
+  left:-40
+}
+#obr{
+  position:absolute;
+  right:-40
+}
+.d{
+  position:absolute;
+  width:50px;
+  height:80px; 
+  z-index:1
+}
+.b{
+  position:absolute;
+  display:flex;
+  align-items:center
+}
+</style>
