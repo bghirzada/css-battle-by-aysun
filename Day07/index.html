@@ -1,0 +1,33 @@
+<div class="main">
+  <div>
+    <div class="d"></div>
+    <div class="t"></div>
+  </div>
+  <div id="v">
+    <div class="d" id="n"></div>
+    <div class="t" id="m"></div>
+  </div>
+  <div>
+    <div class="d"></div>
+    <div class="t"></div>
+  </div>
+</div>
+<style>
+*{margin:0;padding:0;}
+.main{
+  height:300px;
+  background-color:#BDE4C1;
+  display:flex;
+  justify-content:space-around;
+  padding-inline:20px
+}
+#n,.t{background-color:#D95F5B}
+#m,.d{background-color:#4C455B}
+.d{width:80px;height:200px;}
+.t{
+  width:80px;
+  height:40px;
+  border-radius:0 0 40px 40px
+}
+#v{transform:rotate(180deg)}
+</style>

@@ -1,0 +1,27 @@
+<section>
+  <div></div>
+  <div id='a'></div>
+  <div></div>
+  <div id='h'></div>
+</section>
+<style>
+*{margin:0;padding:0;}
+section{
+  background-color:#EDDF5A;
+  height:240px;
+  width:400px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  padding-block:30px
+}
+div{height:40px;background-color:#C53025}
+#h{
+  position:absolute;
+  transform:rotate(90deg);
+  width:200px;
+  left:100;
+  border-block:40px solid #EDDF5A;
+}
+#a{z-index:1}
+</style>
