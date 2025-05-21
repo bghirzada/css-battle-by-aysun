@@ -1,0 +1,36 @@
+<div class="main">
+  <div class="h"></div>
+  <div class="o"></div>
+  <div class="v"></div>
+</div>
+
+<style>
+* { margin: 0; }
+.main {
+  height: 300px;
+  background: #51A499;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.h, .v, .o {
+  background: #282828;
+  position: absolute;
+}
+.h {
+  width: 40px;
+  height: 200px;
+  border-inline: 40px solid #EAC049;
+}
+.v {
+  width: 200px;
+  height: 40px;
+  border-block: 40px solid #EAC049;
+}
+.o {
+  width: 40px;
+  height: 120px;
+  z-index: 1;
+}
+</style>
