@@ -1,0 +1,33 @@
+<div class="main">
+  <div class="circle">
+    <div class="rec a"></div>
+    <div class="rec b"></div>
+  </div>
+</div>
+<style>
+  *{margin:0; padding:0}
+  .main{
+    width: 400px;
+    height: 300px;
+    background: #3F4869;
+    display:flex;
+    align-items:center;
+    justify-content:center
+  }
+  .circle{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    border: 30px solid #E25C57;
+    position:relative
+  }
+  .rec{
+    background-color:#E25C57;
+    position:absolute;
+    right:-30;
+    top:-30
+  }
+  .a{width:60px;height:30px; border-left:10px solid #3F4869;}  
+  .b{width:30px;height:80px; border-bottom:10px solid #3F4869;}
+
+</style>
